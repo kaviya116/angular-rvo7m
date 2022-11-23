@@ -3,4 +3,5 @@
 <input type="radio" value="food" name="task"  (click)="checked('food')"> food<br>
 
 <div *ngFor="let data of arr">
-  <input type="checkbox" [checked]='isSelected==data.type?true:false'/>{{data.name}}
+  <input type="checkbox" [checked]='isSelected==data.type?true:false'/>
+  {{data.name}}
